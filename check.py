@@ -18,7 +18,7 @@ def check_status(url):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-
-url_to_check = "https://www.cksh.tp.edu.tw"
+# 要檢查的url
+url_to_check = ""
 
 check_status(url_to_check)
