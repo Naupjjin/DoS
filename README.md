@@ -2,6 +2,7 @@
 > Author:堇姬Naup
 > 版本:v0.1
 
+**免責聲明:該腳本僅供學習使用，請勿從事違法行為**
 ## 下載方法
 ```
 git clone https://github.com/Naupjjin/DoS.git
