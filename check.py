@@ -6,7 +6,7 @@ def check_status(url):
         result = subprocess.run(['curl', '--head', '--silent', '--output', '/dev/null', '--write-out', '%{http_code}', url], capture_output=True, text=True, check=True)
         
         status_code = int(result.stdout.strip())
-
+        # 正常狀態status code = 200
         if status_code == 200:
             print(f"The request to {url} was successful. Status code: {status_code}")
 
